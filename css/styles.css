@@ -3,30 +3,39 @@
 
 body {
     color: hsl(218, 22%, 67%);
-    font-family: "Karla"
-    background: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg); */
   }
 
 .container {
-  width: 50%;
-  margin-top: 40px;
+  width: 55%;
+  /* margin-top: 40px; */
 }
 
 h1 {
   color: hsl(179, 62%, 43%);
-  font-size: 28px;
+  font-size: 24px;
   font-weight:700;
   line-height: 50px;
 }
 
 .row-top {
-  padding: 40px 40px 0;
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding: 30px 40px 40px 40px;
+  border-radius: 10px 10px 0 0;
 }
 
 .row-top h2 {
   color: hsl(71, 73%, 54%);
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 700;
   line-height: 40px;
+}
+
+.row-top p {
+  margin-bottom: 0;
 }
 
 .row-bottom {
@@ -38,14 +47,53 @@ h1 {
   line-height: 40px;
 }
 
-.col {
-  padding: 40px;
-}
-
 .col-left {
   background-color: hsl(179, 62%, 43%);
+  padding: 30px 40px;
+  border-radius: 0 0 0 10px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.permonth {
+  opacity: 50%;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 0px hsl(71, 80%, 56%);
+	background-color: hsl(71, 73%, 54%);
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:12px 90px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color: hsl(71, 80%, 56%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 
 .col-right {
-  background-color: hsl(71, 73%, 54%);
+  background-color: hsl(179, 55%, 48%);
+  padding: 30px 40px;
+  font-size: 14px;
+  border-radius: 0 0 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
