@@ -71,8 +71,9 @@ h1 {
 	cursor:pointer;
 	color:#ffffff;
 	font-size:17px;
-	padding:12px 90px;
+	padding:12px 38%;
 	text-decoration:none;
+  white-space: nowrap;
 }
 .myButton:hover {
 	background-color: hsl(71, 80%, 56%);
